@@ -1,0 +1,10 @@
+[2026-09-11 14:02:11] TEST FAILED: test_push_notification - ConnectionError: Connection refused at notification-gateway:6001
+[2026-09-11 14:03:45] TEST FAILED: test_biometric_login - TimeoutError: Element 'fingerprint-prompt' not found after 15000ms
+[2026-09-11 14:05:02] TEST FAILED: test_offline_sync - AssertionError: Expected sync status 'complete', got 'failed'
+[2026-09-11 14:06:30] TEST FAILED: test_image_upload - NullPointerException: Cannot read property 'uri' of undefined at upload.js:23
+[2026-09-11 14:08:15] TEST FAILED: test_location_permission - ConnectionError: Connection refused at location-service:5050
+[2026-09-11 14:09:40] TEST FAILED: test_dark_mode_toggle - AssertionError: Expected theme 'dark', got 'light'
+[2026-09-11 14:11:02] TEST FAILED: test_app_update_check - TimeoutError: Element 'update-banner' not found after 15000ms
+[2026-09-11 14:12:33] TEST FAILED: test_chat_message_send - NullPointerException: Cannot read property 'text' of undefined at chat.js:67
+[2026-09-11 14:14:10] TEST FAILED: test_video_call_start - ConnectionError: Connection refused at call-service:6060
+[2026-09-11 14:15:45] TEST FAILED: test_calendar_sync - AssertionError: Expected 5 events, got 0

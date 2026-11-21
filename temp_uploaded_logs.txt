@@ -1,0 +1,25 @@
+[2026-09-10 09:12:03] TEST FAILED: test_login_valid_user - TimeoutError: Element 'login-button' not clickable after 30000ms
+[2026-09-10 09:13:45] TEST FAILED: test_checkout_flow - AssertionError: Expected status 200, got 500 at /api/checkout
+[2026-09-10 09:15:22] TEST FAILED: test_user_profile_load - NullPointerException: Cannot read property 'email' of undefined
+[2026-09-10 09:16:01] TEST FAILED: test_payment_gateway - ConnectionError: Failed to establish connection to payment-service:8443
+[2026-09-10 09:17:33] TEST FAILED: test_search_results - TimeoutError: Element 'search-results-list' not found after 30000ms
+[2026-09-10 09:18:50] TEST FAILED: test_add_to_cart - AssertionError: Expected cart count 1, got 0
+[2026-09-10 09:20:12] TEST FAILED: test_order_history - psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "orders_pkey"
+[2026-09-10 09:21:44] TEST FAILED: test_signup_form - NullPointerException: Cannot read property 'value' of null at signup.js:44
+[2026-09-10 09:23:05] TEST FAILED: test_logout_redirect - TimeoutError: Navigation timeout of 30000ms exceeded
+[2026-09-10 09:24:18] TEST FAILED: test_api_get_products - ConnectionError: Connection refused at products-service:9090
+[2026-09-10 09:25:50] TEST FAILED: test_wishlist_add - AssertionError: Expected 'Added to wishlist' text, element not visible
+[2026-09-10 09:27:11] TEST FAILED: test_coupon_apply - psycopg2.errors.ForeignKeyViolation: insert or update on table "coupons" violates foreign key constraint
+[2026-09-10 09:28:39] TEST FAILED: test_password_reset - TimeoutError: Element 'reset-confirmation' not found after 30000ms
+[2026-09-10 09:30:02] TEST FAILED: test_review_submit - NullPointerException: Cannot read property 'rating' of undefined at reviews.js:112
+[2026-09-10 09:31:27] TEST FAILED: test_shipping_calc - ConnectionError: Failed to establish connection to shipping-service:8080
+[2026-09-10 09:32:55] TEST FAILED: test_filter_products - AssertionError: Expected 12 results, got 0
+[2026-09-10 09:34:10] TEST FAILED: test_admin_login - TimeoutError: Element 'admin-dashboard' not clickable after 30000ms
+[2026-09-10 09:35:42] TEST FAILED: test_invoice_generate - psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "invoices_pkey"
+[2026-09-10 09:37:03] TEST FAILED: test_cart_update_qty - NullPointerException: Cannot read property 'quantity' of undefined at cart.js:88
+[2026-09-10 09:38:29] TEST FAILED: test_notification_send - ConnectionError: Connection refused at notification-service:7000
+[2026-09-10 09:39:55] TEST FAILED: test_category_nav - TimeoutError: Element 'category-menu' not found after 30000ms
+[2026-09-10 09:41:20] TEST FAILED: test_refund_process - AssertionError: Expected refund status 'completed', got 'pending'
+[2026-09-10 09:42:48] TEST FAILED: test_user_settings_save - psycopg2.errors.NotNullViolation: null value in column "phone" violates not-null constraint
+[2026-09-10 09:44:11] TEST FAILED: test_product_image_load - TimeoutError: Element 'product-image' not found after 30000ms
+[2026-09-10 09:45:36] TEST FAILED: test_multi_currency - NullPointerException: Cannot read property 'rate' of undefined at currency.js:56
